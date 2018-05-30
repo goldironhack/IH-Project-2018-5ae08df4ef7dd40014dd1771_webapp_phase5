@@ -1,0 +1,238 @@
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<style type="text/css">
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		background-color:  #5B0F8D;
+		width: 100%;
+		height: 60px;
+		text-align: right;
+		line-height: 60px;
+
+	}
+	.a2:link,.a2:visited{
+		text-decoration: none;
+		background-color:  #5B0F8D;
+		color: white;
+		width: 100px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+
+
+
+
+	}
+	.a2:active,.a2:hover{
+		background-color: black;
+
+		 padding-bottom: 20px;
+		padding-top: 20px ; 
+
+	}
+
+
+	li{
+		display: inline;
+		padding: 5px;
+		font-weight: bold;
+		height: 60px;
+		margin-bottom: 60px;
+		width: 40px;
+		background-color: #5B0F8D;
+		
+
+		
+	}
+	
+	h1{font-weight: bold;
+		font-size: 70px;
+		color: #5B0F8D;
+	}
+	
+	p{
+		font-size: 20px;
+		font-weight: bold;
+
+	}
+
+	.div{
+		background-image: image/
+	}
+	.div2{
+		margin-bottom: 20px;
+	}
+	
+		
+		
+
+	.sele{
+		height: 35px;
+		width: 85%;
+		background-color: #5B0F8D;
+		line-height: 35px;
+		margin-top: 25px;
+		text-align: center;
+
+
+	}
+
+	.box1{
+		vertical-align: middle;
+		width: 75%;
+		margin: 5 auto;
+
+	}
+	.bot{
+		height: 50px;
+		width: 90px;
+		background-color: #5B0F8D;
+		margin: 0 auto;
+
+	}
+	span{
+		margin-left: 8px;
+		color: white;
+		font-size: 15px;
+		font-weight: bold;
+		float: middle;
+
+	}
+	.input1{height: 50px;
+		width: 500px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.div_select{
+		line-height: 200%;
+	}
+	.3chose{
+	}
+
+	.a1:hover{
+		background-color: black;
+		/* padding: 5px; */
+		text-decoration: none;
+
+	}
+	.a1{
+		margin-left: 10px;
+		display: inline-block;
+		width: 100px;
+		height: 30px;
+		background-color:  #5B0F8D;
+		font-weight: bold;
+		color: white;
+		line-height: 30px;
+		text-decoration: none;
+
+	}
+	
+	</style>
+	<script src=""></script>
+	</head>
+	<body >
+	<div class="div1" >
+
+		<ul>
+			<li><a class="a2" href="">Sign in/Sign up</a></li>
+			<li><a class="a2" href="idealnest.html">Front page</a></li>
+			<li><a class="a2" href="">New messages</a></li>
+			<li><a class="a2" href="">my homepage</a></li>
+			<li><a class="a2" href="">History</a></li>
+			<li><a class="a2" href="like.html">like</a></li>
+			<li><a class="a2" href="">More service</a></li>
+		</ul>	
+		
+		<div class="div2">
+			<div class="box1" align="center">
+				<div>
+					<div>
+						<img src="">
+					</div>
+					<div>
+						<p><h1>Ideal Home</h1>
+							This is a website which provides renting informations for NYU students in New York
+						</p>
+					</div>
+				</div>
+
+				<input type="text" class="input1" id="keyword" placeholder="    address \ street \ ...">
+		 		<button class="bot" type="submit">
+		 			<span>serch</span>
+		 		</button>
+		 		<div class="3chose">
+					<a class="a1"  href="neighborhoodMap.html">NeighborhoodMap</a>
+					<a class="a1"  href="crimeHeatMap.html">CrimeMap</a>
+					<a class="a1" href="">Table</a>
+					<a class="a1" href="chart.html">Chart</a>
+				</div>	
+			 	<div class="div_select">
+					Borough<input type="checkbox">
+						<select>
+							<option >Bronx</option>
+							<option >Brooklyn</option>
+							<option >Manhattan</option>
+							<option >Queens</option>
+							<option >Richmond</option>
+						</select>
+				
+					Region<input type="checkbox">
+
+					Room Type<input type="checkbox">
+						<select>
+							<option >single room</option>
+							<option >standerd room</option>
+						</select>
+					distence<input type="checkbox">
+						<select>
+							<option ><=1km</option>
+							<option ><=5km</option>
+							<option ><=10km</option>
+							<option ><=13km</option>
+							<option ><=15km</option>
+							<option >more</option>
+						</select>
+						
+					single rent<input type="radio" name="rent">
+					joint rent<input type="radio" name="rent" >
+					joint rent<input type="checkbox">
+						<select>
+							<option >2 person</option>
+							<option >3 persson</option>
+							<option >4 persson</option>
+							<option >more</option>
+						</select>
+			</div>
+			<div class="sele" align="right" id="sort">
+				<span>Comprehensive</span>
+				<input type="radio" id="by_comprehensive" name="sort">
+				<span>Distance</span>
+				<input type="radio" id="by_distance" name="sort">
+				<span>Price</span>
+				<input type="radio" id="by_price"name="sort">
+				<span>Safty</span>
+				<input type="radio" id="by_safty"name="sort">
+				<span>Room size</span>
+				<input type="radio" id="by_room size"name="sort">
+				<span>Grade down</span>
+				<input type="checkbox" id="check">
+				<button id="doSort" onclick="doSort()">Select</button>
+			</div>
+		</div>
+	</div>
+		
+		
+	</body>
+</html>
